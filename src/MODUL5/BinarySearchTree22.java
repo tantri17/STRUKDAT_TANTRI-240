@@ -11,7 +11,7 @@ class Node {
     }
 }
 
-public class BinaryTree2 {
+public class BinarySearchTree22 {
     public Node root;
 
     public void NewNode(int data) {
@@ -57,7 +57,7 @@ public class BinaryTree2 {
     }
 
     public static void main(String[] args) {
-        BinaryTree2 tree = new BinaryTree2();
+        BinarySearchTree22 tree = new BinarySearchTree22();
         tree.NewNode (20);
         tree.NewNode(2);
         tree.NewNode (25);
